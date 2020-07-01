@@ -1,3 +1,11 @@
+/*
+	This file is taken almost verbatim from the Gmail API quick start: 
+	https://developers.google.com/gmail/api/quickstart/nodejs
+
+	You shouldn't have to modify anything here. You will have to provide a credential.json file in this directory, which you can auto-generate from the quick start website.
+*/
+
+
 const fs = require("fs");
 const readline = require("readline");
 const { google } = require("googleapis");
